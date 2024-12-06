@@ -18,7 +18,7 @@ export default async function Page() {
 			<Breadcrumbs
 				breadcrumbs={[{ label: "Customers", href: "/dashboard/customers" }]}
 			/>
-			<Table customers={customers} />
+			Customers
 		</main>
 	);
 }
